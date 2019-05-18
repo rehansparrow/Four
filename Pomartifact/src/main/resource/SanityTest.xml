@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Dolna Sanity Test Suite">
+	<test name="Sanity Test Cases">
+		<classes>
+			<class name="in.dolna.qa.testcases.LoginPageTestCase"></class>
+			<class name="in.dolna.qa.testcases.HomePageTestCases"></class>
+			<class name="in.dolna.qa.testcases.ContactPageTestCase"></class>
+			
+		</classes>
+	</test>
+</suite> 

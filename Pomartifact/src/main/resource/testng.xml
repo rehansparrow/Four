@@ -1,0 +1,20 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Dolna Test Suite">
+
+	<listeners>
+		<listener class-name="in.dolna.qa.extentReportListener.ExtentReporterNG"/>
+	</listeners>
+
+
+	<test name="in.dolna.qa.testcases">
+		<classes>	
+			<class name="in.dolna.qa.testcases.LoginPageTestCase"/>
+			<class name="in.dolna.qa.testcases.HomePageTestCases"/>
+			<class name="in.dolna.qa.testcases.ContactPageTestCase"/>
+			
+			
+
+		</classes>
+	</test>
+</suite>	

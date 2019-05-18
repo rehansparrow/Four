@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Dolna Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="in.dolna.qa.extentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="in.dolna.qa.testcases(failed)">
+    <classes>
+      <class name="in.dolna.qa.testcases.HomePageTestCases">
+        <methods>
+          <include name="verifyHomePageTitleTest"/>
+          <include name="setup"/>
+          <include name="verifyclickContactTest"/>
+          <include name="teardown"/>
+          <include name="verifyUserTitleTest"/>
+        </methods>
+      </class> <!-- in.dolna.qa.testcases.HomePageTestCases -->
+    </classes>
+  </test> <!-- in.dolna.qa.testcases(failed) -->
+</suite> <!-- Failed suite [Dolna Test Suite] -->
